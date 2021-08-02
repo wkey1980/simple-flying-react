@@ -2,10 +2,14 @@ import React from 'react'
 
 const HeaderNavbar = () => {
 	return (
-		<div>
+		<Nav>
+			<NavDesktop />
+			<NavMobile />
 			<h1>Header Navbar Component</h1>
-		</div>
+		</Nav>
 	)
 }
+
+const 
 
 export default HeaderNavbar
